@@ -4,6 +4,8 @@ The purpose of this tutorial is to teach you the basics of `pdb`, the **P**ython
 and [Python3](https://docs.python.org/3/library/pdb.html).
 It will also include some helpful tricks to make your debugging sessions a lot less stressful.
 
+本文的目的是教你 [Python2](https://docs.python.org/2/library/pdb.html) 和 [Python3](https://docs.python.org/3/library/pdb.html) 调试器 `pdb` 的基础知识。同时也包含了一些有用的调试技巧好让你在调试过程中压力小一些。
+
 --- 
 
 #### Other translations
@@ -28,6 +30,14 @@ python --version
 ```
 
 Now that you know your version, let's get to it!
+
+这篇教程基于 Python 2.7 或者 Python 3.4 写成，我会标注出他们的不同。使用下面的命令，获取你正在使用的 Python 的版本：
+
+```shell
+python --version
+```
+
+现在你已经知道你使用的 Python 的版本了，我们开始吧！
 
 
 ## What is the purpose of a debugger?
