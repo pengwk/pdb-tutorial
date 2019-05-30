@@ -264,6 +264,9 @@ here, I will explain what it does. So, let's begin with the first one.
 
 ### 1. l(ist) a.k.a. I'm too lazy to open the file containing the source code
 
+### 1. l(ist) a.k.a. 我实在不想打开源文件
+
+
 ```
 l(ist) [first [,last]]
     List source code for the current file. Without arguments, list 11 lines around the current line
