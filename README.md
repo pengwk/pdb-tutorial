@@ -42,17 +42,29 @@ python --version
 
 ## What is the purpose of a debugger?
 
+## 什么是调试器存在的目的？
+
 Before jumping into the code, we should have a brief discussion about the importance of debugging and using
 a debugging tool. For me, these three points highlight the importance of a debugger.
+
+在进入代码一起，我们应该有一个简单的讨论关于调试的重要性和使用调试工具。对于我来说，调试器的重点在以下三个方面。
 
 With a debugger, you can:
 * Explore the state of a running program
 * Test implementation code before applying it
 * Follow the program's execution logic
 
+有了调试器，你可以
+
+* 探索运行程序的状态
+* 测试实现在应用他们之前
+* 跟踪程序的运行逻辑
+
 Using a debugger, you can set a [breakpoint](https://en.wikipedia.org/wiki/Breakpoint) at any point of
 your program to stop it and apply the three points above. Debuggers are very powerful tools and they
 can speed up the debugging process a lot faster than using simple `print()` statements everywhere.
+
+使用调试器，你可以通过设置断点的方式让你的程序在任意的位置停下来，并应用上面提到的三点。调试器是非常强大的工具，他们可以显著提升你调试的速度比起到处使用 `print` 语句。
 
 For those of you who are veteran programmers, you might agree with me that there is a
 correlation between the best programmers and the ones that know how to debug effectively. By debugging
@@ -61,8 +73,11 @@ Using a debugger and learning how to use it properly will help you become an eff
 take some time before you feel comfortable navigating around in a debugging environment but the purpose
 of this tutorial is to get your feet wet before you start using `pdb` in your own code base!
 
+对于老手老说，你可能会同意：最好的程序员和知道怎么快速调试关联。有效率的调试，意味着你可以诊断一个程序并且以最小难度应对他们。使用调试器并学会如何正确使用他们会帮助你变成一个有效率的调试者。在你可以很舒服的在调试环境里畅游时，你可能需要花点时间。但是这片教程的目的是让你，在使用 `pdb` 调试你自己的程序时。
 
 ## Playing the Game
+
+## 开始吧
 
 So we already talked about the purpose of a debugger and now it's time to see it in action. First, you
 should clone this repo if you haven't already done so. If you don't have `git` installed, I recommend using
