@@ -239,12 +239,19 @@ addition issue.
 
 Taken directly from the `pdb` documentation, these are the five commands that, once you learn them, you won't know how you lived
 without them.
+在 `pdb` 的文档里有 5 个命令，一旦你学会就再也离不开了。
 
 1. `l(ist)` - Displays 11 lines around the current line or continue the previous listing.
 2. `s(tep)` - Execute the current line, stop at the first possible occasion.
 3. `n(ext)` - Continue execution until the next line in the current function is reached or it returns.
 4. `b(reak)` - Set a breakpoint (depending on the argument provided).
 5. `r(eturn)` - Continue execution until the current function returns.
+
+1. `l(ist)` - 显示 11 行在
+2. `s(tep)` - 执行当前行，在第一个可能？？的地方停止
+3. `n(ext)` - 继续执行直到当前函数的下一行或者函数返回
+4. `b(reak)` - 设置一个断点（取决于你提供的参数）
+5. `r(eturn)` - 继续执行直到函数返回
 
 Notice that there are brackets around the last part of every keyword. The brackets indicate that the rest of the word is _optional_ when
 using the command prompt for `pdb`. This saves typing but a major gotcha is if you have a variable name such as `l` or `n`, then the
